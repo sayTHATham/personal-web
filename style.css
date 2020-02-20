@@ -17,14 +17,19 @@ p{
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+    margin-top: 5%;
 }
+#letter-setup{
+    margin-left: 10%;
+    padding-left: 5%;
+    margin-top: 14%;
+}
+
 .half-width img{
-    width: 100%;
+    width: 90%;
 }
 .header-bg{
-    background-image:url("latest-work-bg.png");
+    background-image:url("header.png");
     background-repeat: repeat;
     }
 .link-button{
@@ -34,4 +39,29 @@ p{
     border-radius: 5px;
     color: wheat;
     font-weight: bold;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+#img-setup{
+    margin-left: 10%;
+}
+#biography-setup{
+    margin-left: 5%;
+    margin-top: 12%;
+    margin-right: 5%;    
+}
+.biography-area{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+}
+.one-third-width{
+    text-align: center;
+    margin-top: 10%;
+}
+.one-third-width img{
+    width: 22%;
+    float: left;
+    margin-left: 10%;
 }
