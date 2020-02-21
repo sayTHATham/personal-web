@@ -42,7 +42,7 @@ p{
 }
 section{
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 120px;
 }
 #img-setup{
     margin-left: 10%;
@@ -63,9 +63,33 @@ section{
 .one-third-width img{
     width: 25%;
     float: left;
-    margin-left: 7%;   
+    margin-left: 7%;
 }
-.works{
+.experience{
     background-image: url("latest-work-bg.png");
     background-repeat: no-repeat;
+}
+.ending{
+    text-align: center;
+    background-image: url("footer-bg.png");
+    background-repeat: no-repeat;
+}
+.down-border{ 
+    padding-top: 10%;
+    text-decoration: none;
+    background-image: linear-gradient(60deg, lightsalmon, tomato);
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: whitesmoke;
+    width: 500px;
+    margin: auto;
+}
+.mail{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+#me{
+    text-decoration: none;
+    color:lime
 }
